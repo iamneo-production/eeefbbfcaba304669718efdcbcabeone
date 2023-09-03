@@ -5,8 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <style>
-        /* CSS styles as per your description */
-        /* Add your CSS styles here */
+        /* Header Styling */
+h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+
+/* Box Styling */
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px;
+}
+
+/* Row Styling */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Styling */
+.btn {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button Hover Styling */
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Disabled Button Styling */
+.btn:disabled {
+  color: #000;
+  cursor: no-drop;
+}
+
+/* Result Container Styling */
+.result-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #000;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* Result Styling */
+.result-text {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+}
+
+/* Reset Styling */
+.reset {
+  text-align: center;
+}
+
+/* Reset Button Styling */
+.reset-button {
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Reset Button Hover Styling */
+.reset-button:hover {
+  background-color: #000;
+  color: #fff;
+}
     </style>
 </head>
 <body>
